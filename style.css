@@ -1,0 +1,20 @@
+table th,td {
+    border:1px solid black;
+    border-collapse: collapse;
+    border-color: rgb(255, 0, 157);
+   }
+   th ,td {
+    padding: 6px;
+    text-align: center;
+}
+ 
+   th{
+    border-bottom: 1px solid brown;
+    background-color:lightblue;
+   }
+   tfoot  tr th {text-align: center;
+    background-color: rgb(250, 215, 222);
+       }
+       tr:nth-child(even) {
+  background-color: #dcd6ee;
+}
